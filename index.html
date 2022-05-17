@@ -14,16 +14,27 @@
         <span>Thanks for choosing GoodCorp, LLC!</span>
     </header>
     <main>
-        <div id="services"></div>
-        <span>TASK</span> 
-        <span>TOTAL</span>
+        <div id="services">
+            <button id="wash-car">Wash Car: $10</button>
+            <button id="mow-lawn">Mow lawn: $20</button>
+            <button id="pull-weeds">Pull Weeds: $30</button>
+        </div>
+        <div id="invoice">
+            <div id="task">
+                <span>TASK</span> 
+                <div id="services-picked"></div>
+            </div>
+            <div id="total">
+                <span>TOTAL</span>
+                <div id="services-price"></div>
+            </div>
+        </div>
         <hr>
         <span>NOTES</span>
-        <span>TOTAL AMOUNT</span>
-        <div id="services-picked"></div>
         <span>We accept cash, credit card, or PayPal</span>
+        <span>TOTAL AMOUNT</span>
         <div id="total-cost"></div>
-        <button>Send invoice</button>
+        <button id="send-invoice">Send invoice</button>
     </main>
 </body>
 </html>

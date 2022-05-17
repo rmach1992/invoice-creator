@@ -1,0 +1,76 @@
+header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B283A;
+    background: #F5F5F5;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9px 13px;
+}
+
+#wash-car, #mow-lawn, #pull-weeds {
+    background: #FFFFFF;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    width: 143.17px;
+    height: 45px;
+    left: 38px;
+    top: 227px;
+}
+
+#invoice {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#task, #total{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #918E9B;
+}
+
+#services-picked, #services-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #4A4E74;
+}
+
+#send-invoice {
+    width: 473px;
+    height: 44px;
+    left: 38px;
+    top: 528px;
+    background: #3770ED;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
